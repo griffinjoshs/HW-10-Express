@@ -11,7 +11,7 @@ let activeNote = {};
 const getNotes = () => {
   return $.ajax({
     url: "/api/notes",
-    method: "GET",zsssssszzzzzzzzzzzzzzzzzzzzzzzzzs
+    method: "GET",
   });
 };
 
